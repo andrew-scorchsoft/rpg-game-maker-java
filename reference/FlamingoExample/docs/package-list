@@ -1,0 +1,16 @@
+org.jvnet.flamingo.bcb
+org.jvnet.flamingo.bcb.core
+org.jvnet.flamingo.bcb.ui
+org.jvnet.flamingo.common
+org.jvnet.flamingo.common.icon
+org.jvnet.flamingo.common.model
+org.jvnet.flamingo.common.popup
+org.jvnet.flamingo.common.ui
+org.jvnet.flamingo.ribbon
+org.jvnet.flamingo.ribbon.resize
+org.jvnet.flamingo.ribbon.ui
+org.jvnet.flamingo.ribbon.ui.appmenu
+org.jvnet.flamingo.slider
+org.jvnet.flamingo.slider.ui
+org.jvnet.flamingo.svg
+org.jvnet.flamingo.utils

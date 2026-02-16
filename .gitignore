@@ -1,0 +1,25 @@
+# Build output
+build/
+dist/
+
+# NetBeans private configuration
+nbproject/private/
+
+# JVM crash logs
+hs_err_pid*.log
+
+# Windows thumbnail cache
+Thumbs.db
+
+# Game save files (created at runtime)
+*.game
+!reference/**/*.game
+
+# OS files
+.DS_Store
+Desktop.ini
+
+# IDE files
+*.swp
+*.swo
+*~

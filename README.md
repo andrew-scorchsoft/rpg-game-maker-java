@@ -4,9 +4,11 @@
   <img src="src/gamemaker/icons/splash.png" alt="Game Maker — Make Games Easily" width="200">
 </p>
 
-A desktop application for creating simple RPG-style games using your own images, photographs, or drawings as the in-game scenes. Rather than traditional tile-based map editors, this tool lets you upload custom background and foreground images that form the world your character walks around in — making it possible to build interesting and complex games with little or no programming knowledge.
+**[Project Page](https://www.scorchsoft.com/rpg-game-maker-java)** | **[User Manual](docs/User%20Manual%20v1.pdf)** | **[Full Documentation](docs/Project%20Documentation%20v1.4.pdf)**
 
-Built with Java Swing, it runs on Windows, Mac, and Linux.
+A desktop application (v1.8) for creating simple RPG-style games using your own images, photographs, or drawings as the in-game scenes. Rather than traditional tile-based map editors, this tool lets you upload custom background and foreground images that form the world your character walks around in — making it possible to build interesting and complex games with little or no programming knowledge.
+
+Built with Java Swing, it runs on Windows, Mac, and Linux. A video demo is available on the [project page](https://www.scorchsoft.com/rpg-game-maker-java).
 
 ## Project Status
 
@@ -32,9 +34,15 @@ This is a legacy codebase originally developed as a final-year university projec
 - **Java JRE/JDK 1.6 or higher** (any modern Java version will work)
 - **Apache Ant** (only needed if building from source)
 
-### Running the Pre-built JAR
+### Running a Pre-built Release
 
-If a pre-built JAR is available in the `dist/` directory:
+A pre-built v1.8 archive (including all dependencies) is available for download from the [project page](https://www.scorchsoft.com/rpg-game-maker-java). Extract the ZIP and run:
+
+```bash
+java -jar Game_Maker.jar
+```
+
+If you've cloned this repo and have a built JAR in `dist/`:
 
 ```bash
 java -jar dist/Game_Maker.jar
@@ -109,11 +117,15 @@ The `docs/` folder contains the original project documentation:
 
 ## Example Games
 
-Some example `.game` files were originally distributed with the project. These can be opened within the game maker to explore how games are structured:
+Some example `.game` files were distributed alongside the project and are available for download from the [project page](https://www.scorchsoft.com/rpg-game-maker-java). Download, unzip, and open them with the game maker to see how games are put together:
 
-- A Final Fantasy 7-style exploration game
-- A quiz-style game
-- A cave factory game
+- **Final Fantasy 7-style game** — An exploration game with multiple maps and teleportation events
+- **Quiz-style game** — Demonstrates the question/answer event system
+- **Cave factory game** — A smaller example with walkable area and perspective usage
+
+## Further Information
+
+This project was the final-year university project of Andrew Lee Ward from the University of Birmingham School of Computer Science. For more details, downloads, and a video demo, visit the [Scorchsoft project page](https://www.scorchsoft.com/rpg-game-maker-java).
 
 ## License
 

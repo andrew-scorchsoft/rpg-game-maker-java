@@ -1,7 +1,7 @@
 # Java RPG Game Maker
 
 <p align="center">
-  <img src="src/gamemaker/icons/splash.png" alt="Game Maker — Make Games Easily" width="200">
+  <img src="assets/screenshots/configured-game-view-with-map-and-events.png" alt="Java RPG Game Maker — Editor view with map, events, and multiple maps in the sidebar" width="700">
 </p>
 
 **[Project Page](https://www.scorchsoft.com/rpg-game-maker-java)** | **[User Manual](docs/User%20Manual%20v1.pdf)** | **[Full Documentation](docs/Project%20Documentation%20v1.4.pdf)**
@@ -26,6 +26,16 @@ This is a legacy codebase originally developed as a final-year university projec
 - **Integrated play mode** — Test your game directly within the editor with a built-in player that features double-buffered rendering.
 - **Portable save format** — Games are saved as `.game` files (ZIP archives containing XML and images), making them easy to share with anyone who has the application.
 - **Ribbon UI** — A Microsoft Office-style ribbon toolbar (via the Flamingo library) organises the editing tools into logical bands: Tools, Events, Map Tools, and Layers.
+
+## Screenshots
+
+| Map Editor | Event Overlay |
+|:---:|:---:|
+| ![Map editor view with sprite and ribbon toolbar](assets/screenshots/map-view.png) | ![Events tab showing polygon event areas drawn on the map](assets/screenshots/event-overlay-view.png) |
+
+| Perspective Editor | Play Mode |
+|:---:|:---:|
+| ![Perspective editor with horizon line and scaled sprite previews](assets/screenshots/perspective-view.png) | ![Integrated play mode running the game](assets/screenshots/play-view.png) |
 
 ## Getting Started
 
